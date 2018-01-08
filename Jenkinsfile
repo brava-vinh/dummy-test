@@ -5,7 +5,6 @@ node {
         echo env.BRANCH_NAME
         echo "Checkout"
         println scmVars.inspect()
-        echo scm.branches[0].name
       }
 
       stage('Pending') {
